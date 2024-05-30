@@ -33,6 +33,8 @@ def render() -> None:
 			'.webp',
 			'.webm',
 			'.mp4'
+			'.mkv'
+			'.ts'
 		],
 		value = facefusion.globals.target_path if is_target_image or is_target_video else None
 	)
